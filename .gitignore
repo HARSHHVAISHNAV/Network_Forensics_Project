@@ -1,0 +1,28 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore dataset files if large
+*.csv
+!data/dataset.csv
+!data/dataset_test.csv
+
+# Ignore model artifacts if not needed
+*.pkl
+
+# Ignore reports and logs
+forensic_report/
+*.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+.DS_Store
