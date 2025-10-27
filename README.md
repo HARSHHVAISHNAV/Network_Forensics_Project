@@ -36,9 +36,9 @@ Copy code
 
 ---
 
-## 💻 How to Run
-
-### 1️⃣ Clone this repository
+### 💻 How to Run
+```bash
+1️⃣ Clone this repository
 ```bash
 git clone https://github.com/<your-username>/Network_Forensics_Project.git
 cd Network_Forensics_Project
